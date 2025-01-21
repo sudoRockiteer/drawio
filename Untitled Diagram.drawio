@@ -65,7 +65,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fx19zx-SHGDhQ8waikCe-31" value="&lt;div&gt;cpt-rh-ter-pas&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1075" y="260" width="200" height="60" as="geometry" />
+          <mxGeometry x="1030" y="170" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fx19zx-SHGDhQ8waikCe-32" value="cpt-rh-ter-dcs-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="610" y="280" width="120" height="60" as="geometry" />
