@@ -121,10 +121,10 @@
         <mxCell id="fVmiqil4yu7aYD-Kcc7V-7" value="Frogfoot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-830" y="-150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fVmiqil4yu7aYD-Kcc7V-8" value="DFA GNNI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fVmiqil4yu7aYD-Kcc7V-8" value="DFA GNNI&lt;br&gt;(VID 800-899)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-830" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fVmiqil4yu7aYD-Kcc7V-9" value="DFA ENNI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fVmiqil4yu7aYD-Kcc7V-9" value="DFA ENNI&lt;br&gt;(VID 1203-1206)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-830" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fVmiqil4yu7aYD-Kcc7V-10" value="Openserve" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
