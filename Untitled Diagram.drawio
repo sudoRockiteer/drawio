@@ -6,11 +6,11 @@
         <mxCell id="1" parent="0" />
         <mxCell id="cPcmEA7VBjGebmvJgzap-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="cPcmEA7VBjGebmvJgzap-3" target="cPcmEA7VBjGebmvJgzap-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-105" y="-230" as="targetPoint" />
+            <mxPoint x="-105" y="-470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="-460" width="250" height="190" as="geometry" />
+          <mxGeometry x="-230" y="-700" width="250" height="190" as="geometry" />
         </mxCell>
         <mxCell id="fx19zx-SHGDhQ8waikCe-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="390" y="-80" width="990" height="700" as="geometry" />
@@ -148,25 +148,25 @@
           <mxGeometry x="-830" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-1" value="&lt;b&gt;Suggestion:&lt;br&gt;Management Switch is only for failover access&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="-440" width="150" height="30" as="geometry" />
+          <mxGeometry x="-180" y="-680" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-2" value="&lt;b&gt;Plan: &lt;/b&gt;Redesign the network so that management can also be accessed via the access network over a separate VRF. This could be conbined with our OSPF to remove the need for static routing." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-195" y="-350" width="180" height="30" as="geometry" />
+          <mxGeometry x="-195" y="-590" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-460" width="250" height="160" as="geometry" />
+          <mxGeometry x="40" y="-700" width="250" height="160" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-5" value="&lt;b&gt;Suggestion:&lt;br&gt;Netbox is only used for core devices&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-440" width="150" height="30" as="geometry" />
+          <mxGeometry x="90" y="-680" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-6" value="&lt;b&gt;Plan: &lt;/b&gt;Keep FTTB info on Splynx where possible to avoid duplicate information. Core info such as circuits/vlans can be maintained" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-365" width="150" height="30" as="geometry" />
+          <mxGeometry x="90" y="-605" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-275" width="250" height="90" as="geometry" />
+          <mxGeometry x="40" y="-515" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-8" value="&lt;b&gt;Suggestion:&lt;/b&gt;&lt;br&gt;Set admin-mac for all switches so if 1st port fails ARP/switch hosts tables don&#39;t have to re-propogate" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-245" width="150" height="30" as="geometry" />
+          <mxGeometry x="90" y="-485" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-500" y="-700" width="250" height="220" as="geometry" />
@@ -178,10 +178,10 @@
           <mxGeometry x="-450" y="-580" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="-210" width="250" height="110" as="geometry" />
+          <mxGeometry x="-230" y="-450" width="250" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-14" value="This will also let us remove firewalls since we can isolate management to only the VRF.&lt;br&gt;&lt;br&gt;That means we can implement fast-path on all of our access routers" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-207.5" y="-170" width="207.5" height="30" as="geometry" />
+          <mxGeometry x="-207.5" y="-410" width="207.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-770" y="-700" width="250" height="290" as="geometry" />
@@ -211,9 +211,9 @@
           <mxGeometry x="-770" y="-460" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="-420" width="250" height="220" as="geometry" />
+          <mxGeometry x="-500" y="-450" width="250" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="cPcmEA7VBjGebmvJgzap-27" value="&lt;b&gt;Route Reflectors: &lt;/b&gt;Since we are using OSPF for local routes we can also remove the need for&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cPcmEA7VBjGebmvJgzap-27" value="&lt;b&gt;Route Reflectors: &lt;/b&gt;If we are using OSPF for local routes we can also remove the need for RRs which removes them (and their ports) as potential points of failure.&lt;br&gt;&lt;br&gt;&lt;b&gt;Switches&lt;/b&gt;: Currently switches are a single point of failure, so we could also implement cables between car&#39;s/ibr&#39;s and OSPF would allow for convenient automated failover even if it&#39;s only 1Gbps ether with our current equipment." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-450" y="-330" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
