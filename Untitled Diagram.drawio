@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Page-1" id="0jXYULb7XNN_6yOyQ7-O">
-    <mxGraphModel dx="2863" dy="1689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3735" dy="2130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -372,8 +372,8 @@
         <mxCell id="cPcmEA7VBjGebmvJgzap-70" value="Peers with every layer3 router on our network" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="315" y="60" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cPcmEA7VBjGebmvJgzap-71" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Seacom NLD #1 [2G] {SO106579_CT1}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="290" y="270" width="170" height="10" as="geometry" />
+        <mxCell id="cPcmEA7VBjGebmvJgzap-71" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Seacom NLD #1 [2G]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="90" height="10" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-186" value="Create layout map showing current BGP Setup&lt;br&gt;&lt;br&gt;2nd Layout Map showing potential OSPF setup" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="-300" width="220" height="30" as="geometry" />
