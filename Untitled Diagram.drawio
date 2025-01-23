@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Page-1" id="0jXYULb7XNN_6yOyQ7-O">
-    <mxGraphModel dx="1912" dy="1637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2728" dy="2051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,13 +169,13 @@
           <mxGeometry x="90" y="-245" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="-460" width="250" height="220" as="geometry" />
+          <mxGeometry x="-500" y="-700" width="250" height="220" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-11" value="&lt;b&gt;Suggestion:&lt;br&gt;Remove BGP/RR for non-edge devices&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="-440" width="150" height="30" as="geometry" />
+          <mxGeometry x="-450" y="-680" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-12" value="&lt;b&gt;Plan: &lt;/b&gt;Redisign the network with OSPF in mind, allowing car&#39;s to failover to each other along with ECMP and reducing the number of routes for each car. This will also allow for L3-HW in the future." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="-340" width="150" height="30" as="geometry" />
+          <mxGeometry x="-450" y="-580" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-230" y="-210" width="250" height="110" as="geometry" />
@@ -209,6 +209,12 @@
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-24" value="&lt;b&gt;Cisco:&lt;/b&gt;&lt;br&gt;Juniper but worse :P" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-770" y="-460" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cPcmEA7VBjGebmvJgzap-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="-420" width="250" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cPcmEA7VBjGebmvJgzap-27" value="&lt;b&gt;Route Reflectors: &lt;/b&gt;Since we are using OSPF for local routes we can also remove the need for&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="-330" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
