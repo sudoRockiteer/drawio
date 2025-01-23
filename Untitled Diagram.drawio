@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cPcmEA7VBjGebmvJgzap-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="-350" width="250" height="220" as="geometry" />
+          <mxGeometry x="-230" y="-380" width="250" height="220" as="geometry" />
         </mxCell>
         <mxCell id="fx19zx-SHGDhQ8waikCe-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="390" y="-80" width="990" height="700" as="geometry" />
@@ -143,25 +143,25 @@
           <mxGeometry x="-830" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-1" value="Suggestion:&lt;br&gt;Management Switch is only for failover access" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="-330" width="150" height="30" as="geometry" />
+          <mxGeometry x="-180" y="-360" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-2" value="Plan: Redisign the network so that management can also be accessed via the access network over a separate VRF. This could be conbined with our OSPF to remove the need for static routing." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="-230" width="150" height="30" as="geometry" />
+          <mxGeometry x="-180" y="-260" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="120" y="-350" width="250" height="150" as="geometry" />
+          <mxGeometry x="40" y="-380" width="250" height="150" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-5" value="Suggestion:&lt;br&gt;Netbox is only used for core devices" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="-330" width="150" height="30" as="geometry" />
+          <mxGeometry x="90" y="-360" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-6" value="Plan: Keep FTTB info on Splynx where possible to avoid duplicate information. Core info such as circuits/vlans can be maintained" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="-260" width="150" height="30" as="geometry" />
+          <mxGeometry x="90" y="-290" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="420" y="-330" width="250" height="90" as="geometry" />
+          <mxGeometry x="310" y="-380" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-8" value="Suggestion:&lt;br&gt;Set admin-mac for all switches so if 1st port fails ARP/switch hosts tables don&#39;t have to re-propogate" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="-300" width="150" height="30" as="geometry" />
+          <mxGeometry x="360" y="-350" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-500" y="-380" width="250" height="220" as="geometry" />
