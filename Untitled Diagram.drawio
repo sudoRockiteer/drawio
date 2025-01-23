@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Page-1" id="0jXYULb7XNN_6yOyQ7-O">
-    <mxGraphModel dx="2676" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2376" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cPcmEA7VBjGebmvJgzap-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="-370" width="250" height="150" as="geometry" />
+        </mxCell>
         <mxCell id="fx19zx-SHGDhQ8waikCe-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="390" y="-80" width="990" height="700" as="geometry" />
         </mxCell>
@@ -103,41 +106,62 @@
         <mxCell id="fx19zx-SHGDhQ8waikCe-50" value="&lt;div&gt;cpt-rh-ter-mcs-1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
           <mxGeometry x="1075" y="10" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fVmiqil4yu7aYD-Kcc7V-1" value="RocketNet Johannesburg" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fVmiqil4yu7aYD-Kcc7V-1" value="RocketNet Johannesburg" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="-50" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fVmiqil4yu7aYD-Kcc7V-3" value="RocketNet Cape Town" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fVmiqil4yu7aYD-Kcc7V-3" value="RocketNet Cape Town" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1275" y="-50" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fVmiqil4yu7aYD-Kcc7V-4" value="Vuma" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fVmiqil4yu7aYD-Kcc7V-4" value="Vuma" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-830" y="10" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fVmiqil4yu7aYD-Kcc7V-5" value="AEX (Automation Exchange)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fVmiqil4yu7aYD-Kcc7V-5" value="AEX (Automation Exchange)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-830" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fVmiqil4yu7aYD-Kcc7V-6" value="Vodacom" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fVmiqil4yu7aYD-Kcc7V-6" value="Vodacom" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-830" y="-70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fVmiqil4yu7aYD-Kcc7V-7" value="Frogfoot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fVmiqil4yu7aYD-Kcc7V-7" value="Frogfoot" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-830" y="-150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fVmiqil4yu7aYD-Kcc7V-8" value="DFA GNNI&lt;br&gt;(VID 800-899)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fVmiqil4yu7aYD-Kcc7V-8" value="DFA GNNI&lt;br&gt;(VID 800-899)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-830" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fVmiqil4yu7aYD-Kcc7V-9" value="DFA ENNI&lt;br&gt;(VID 1203-1206)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fVmiqil4yu7aYD-Kcc7V-9" value="DFA ENNI&lt;br&gt;(VID 1203-1206)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-830" y="570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fVmiqil4yu7aYD-Kcc7V-10" value="Openserve" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fVmiqil4yu7aYD-Kcc7V-10" value="Openserve" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-830" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fVmiqil4yu7aYD-Kcc7V-11" value="MFN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fVmiqil4yu7aYD-Kcc7V-11" value="MFN" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-830" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fVmiqil4yu7aYD-Kcc7V-12" value="MTN WOW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fVmiqil4yu7aYD-Kcc7V-12" value="MTN WOW" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-830" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fVmiqil4yu7aYD-Kcc7V-13" value="ACX&lt;br&gt;(Africa Cloud Exchange)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fVmiqil4yu7aYD-Kcc7V-13" value="ACX&lt;br&gt;(Africa Cloud Exchange)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-830" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cPcmEA7VBjGebmvJgzap-1" value="Suggestion:&lt;br&gt;Management Switch is only for failover access" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="-350" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cPcmEA7VBjGebmvJgzap-2" value="Plan: Redisign the network so that management can also be accessed via the access network over a separate VRF" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="-280" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cPcmEA7VBjGebmvJgzap-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="-370" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cPcmEA7VBjGebmvJgzap-5" value="Suggestion:&lt;br&gt;Netbox is only used for core devices" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="-350" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cPcmEA7VBjGebmvJgzap-6" value="Plan: Keep FTTB info on Splynx where possible to avoid duplicate information. Core info such as circuits/vlans can be maintained" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="-280" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cPcmEA7VBjGebmvJgzap-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-370" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cPcmEA7VBjGebmvJgzap-8" value="Suggestion:&lt;br&gt;Set admin-mac for all switches so if 1st port fails ARP/switch hosts tables don&#39;t have to re-propogate" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-320" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
