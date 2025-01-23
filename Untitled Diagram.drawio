@@ -154,13 +154,13 @@
           <mxGeometry x="-180" y="-350" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-460" width="250" height="150" as="geometry" />
+          <mxGeometry x="40" y="-460" width="250" height="160" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-5" value="Suggestion:&lt;br&gt;Netbox is only used for core devices" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="-440" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-6" value="Plan: Keep FTTB info on Splynx where possible to avoid duplicate information. Core info such as circuits/vlans can be maintained" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-370" width="150" height="30" as="geometry" />
+          <mxGeometry x="90" y="-365" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="310" y="-460" width="250" height="90" as="geometry" />
