@@ -1220,10 +1220,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-357" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-685" y="2805" width="225" height="215" as="geometry" />
+          <mxGeometry x="-685" y="2805" width="225" height="245" as="geometry" />
         </mxCell>
-        <mxCell id="xk56oIc3Z307pz8jZ29w-336" value="&lt;b&gt;Noteable Changes:&lt;/b&gt;&lt;div&gt;Peering with Route Reflectors (and BGP as a whole) is removed from all CAR&#39;s to empty the routing table.&lt;/div&gt;&lt;div&gt;CAR&#39;s are interconnected to allow for failover between them if required.&lt;br&gt;Removal of the management switch - Firewall learns management routes directly from the IBR&#39;s via OSPF.&lt;/div&gt;&lt;div&gt;Move management to VRFs so that firewalls can be removed and fast-track can be enabled.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-675" y="2897.5" width="205" height="30" as="geometry" />
+        <mxCell id="xk56oIc3Z307pz8jZ29w-336" value="&lt;b&gt;Noteable Changes:&lt;/b&gt;&lt;div&gt;Peering with Route Reflectors is removed from all CAR&#39;s to empty the routing table.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CAR&#39;s are interconnected to allow for failover between them if required.&lt;br&gt;&lt;br&gt;Removal of the management switch and Firewall instead learns management routes directly from the IBR&#39;s via OSPF.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Move management to VRFs so that firewalls can be removed and fast-track can be enabled.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-675" y="2910" width="205" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-358" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-950" y="3500" width="225" height="170" as="geometry" />
