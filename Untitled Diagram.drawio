@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.7">
   <diagram name="Page-1" id="0jXYULb7XNN_6yOyQ7-O">
-    <mxGraphModel dx="5189" dy="2866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3444" dy="1983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1154,7 +1154,7 @@
             <mxPoint x="-184" y="3090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xk56oIc3Z307pz8jZ29w-336" value="&lt;b&gt;Noteable Changes:&lt;/b&gt;&lt;div&gt;Peering with Route Reflectors (and BGP as a whole) is removed from all CAR&#39;s to empty the routing table.&lt;/div&gt;&lt;div&gt;CAR&#39;s are interconnected to allow for failover between them if required.&lt;br&gt;Removal of the management switch - Firewall learns management routes directly from the IBR&#39;s via OSPF.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xk56oIc3Z307pz8jZ29w-336" value="&lt;b&gt;Noteable Changes:&lt;/b&gt;&lt;div&gt;Peering with Route Reflectors (and BGP as a whole) is removed from all CAR&#39;s to empty the routing table.&lt;/div&gt;&lt;div&gt;CAR&#39;s are interconnected to allow for failover between them if required.&lt;br&gt;Removal of the management switch - Firewall learns management routes directly from the IBR&#39;s via OSPF.&lt;/div&gt;&lt;div&gt;Move management to VRFs so that firewalls can be removed.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-675" y="2930" width="245" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-338" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=classicThin;startFill=1;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#D79B00;endFill=1;startArrow=classicThin;" edge="1" parent="1" source="xk56oIc3Z307pz8jZ29w-232" target="xk56oIc3Z307pz8jZ29w-263">
