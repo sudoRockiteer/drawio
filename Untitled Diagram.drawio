@@ -1231,6 +1231,12 @@
         <mxCell id="xk56oIc3Z307pz8jZ29w-354" value="&lt;b&gt;SUGGESTION:&lt;/b&gt;&lt;br&gt;We could move Vuma AE peerings to the edge, which could be more efficient and reduce a hop if we add a cable between the pas and dcs switches for the vlans. It would also mean that we can remove BGP entirely from the car&#39;s and keep it only on the edge to keep everything on 1 standard.&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-940" y="3580" width="202.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="xk56oIc3Z307pz8jZ29w-363" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="2620" width="240" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="xk56oIc3Z307pz8jZ29w-364" value="&lt;b&gt;Benefits of this design:&lt;/b&gt;&lt;br&gt;Managements&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="2720" width="205" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
