@@ -1217,7 +1217,7 @@
             <mxPoint x="-785" y="1785" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xk56oIc3Z307pz8jZ29w-354" value="NOTE:&lt;br&gt;Vuma AE peerings would need to move to the edge,&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xk56oIc3Z307pz8jZ29w-354" value="NOTE:&lt;br&gt;Vuma AE peering/vlans would need to move to the edge, although this could be more efficient and reduce a hop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-685" y="3070" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
