@@ -4,8 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mWGE-BCgWoqx2K6G0xnI-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-940" y="-830" width="550" height="570" as="geometry" />
+        <mxCell id="mWGE-BCgWoqx2K6G0xnI-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-1200" y="-1080" width="550" height="760" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="-910" y="-170" width="220" height="880" as="geometry" />
@@ -325,16 +325,16 @@
           <mxGeometry x="-87.5" y="-490" width="207.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-650" y="-780" width="250" height="510" as="geometry" />
+          <mxGeometry x="-910" y="-1030" width="250" height="510" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-17" value="&lt;b&gt;Suggestion:&lt;br&gt;Replace the edge network (ibr) with a VRF from our upstream&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-615" y="-770" width="180" height="30" as="geometry" />
+          <mxGeometry x="-875" y="-1020" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-18" value="&lt;b&gt;Pros:&lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;Simplified management and therefore less work and knowledge of BGP required.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Save on purchasing, maintaining, power, cooling, and space for edge routers.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;We can focus more on automation and improving our current infrastructure.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Easier scalabilty without worrying about upgrading edge routers or line capacity.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-650" y="-650" width="250" height="30" as="geometry" />
+          <mxGeometry x="-910" y="-900" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-19" value="&lt;b&gt;Cons:&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Lose the ability to fine-tune routing/communities.&lt;/li&gt;&lt;li&gt;Potentially long resolution times for upstream issues and being reliant on the capabilities of our upstream&#39;s support staff.&lt;/li&gt;&lt;li&gt;Single point of failure. Especially with only 1 VRF we could potentially lose our whole network due to an upstream mistake or equipment failure so it would be beneficial to have multiple.&lt;/li&gt;&lt;li&gt;Reduced visibility, only being able to use the monitoring tools we are provided.&lt;/li&gt;&lt;li&gt;We would have to thoroughly investigate factors like uptime, redundency and price.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-650" y="-415" width="250" height="30" as="geometry" />
+          <mxGeometry x="-910" y="-670" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-380" y="-510" width="250" height="350" as="geometry" />
@@ -375,38 +375,50 @@
         <mxCell id="cPcmEA7VBjGebmvJgzap-191" value="cpt-rh-ter-mcs-1&lt;br&gt;(Management Switch)&lt;br&gt;&lt;br&gt;There is a cable from here to each managed device in the stack to connect via the 10.18.0.0/24 range." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="975" y="-5" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mWGE-BCgWoqx2K6G0xnI-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-925" y="-780" width="250" height="290" as="geometry" />
+        <mxCell id="mWGE-BCgWoqx2K6G0xnI-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-1185" y="-1030" width="250" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="mWGE-BCgWoqx2K6G0xnI-5" value="&lt;b&gt;Suggestion:&lt;br&gt;Replace the edge network (ibr) with Juniper/Arista&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-890" y="-770" width="180" height="30" as="geometry" />
+        <mxCell id="mWGE-BCgWoqx2K6G0xnI-5" value="&lt;b&gt;Suggestion:&lt;br&gt;Replace the edge network (ibr) with Juniper/Arista&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1150" y="-1020" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mWGE-BCgWoqx2K6G0xnI-6" value="&lt;b&gt;Arista:&lt;/b&gt;&lt;br&gt;It runs on a Linux-based extensible operating system making it hard to compete with automation and native support for tools like python. One of the most feature-rich providers on the market." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-925" y="-690" width="250" height="30" as="geometry" />
+        <mxCell id="mWGE-BCgWoqx2K6G0xnI-6" value="&lt;b&gt;Arista:&lt;/b&gt;&lt;br&gt;It runs on a Linux-based extensible operating system making it hard to compete with automation and native support for tools like python. One of the most feature-rich providers on the market." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1185" y="-940" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mWGE-BCgWoqx2K6G0xnI-7" value="&lt;b&gt;Juniper:&lt;/b&gt;&lt;br&gt;JunOS is slightly less flexible than Arista, but still support automation through &quot;Junos automation&quot; (with support for Python) and are well known for consistency and stability. Seems to be cheaper than Arista on average**" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-925" y="-600" width="250" height="30" as="geometry" />
+        <mxCell id="mWGE-BCgWoqx2K6G0xnI-7" value="&lt;b&gt;Juniper:&lt;/b&gt;&lt;br&gt;JunOS is slightly less flexible than Arista, but still support automation through &quot;Junos automation&quot; (with support for Python) and are well known for consistency and stability. Seems to be cheaper than Arista on average**" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1185" y="-850" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mWGE-BCgWoqx2K6G0xnI-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-925" y="-440" width="250" height="140" as="geometry" />
+        <mxCell id="mWGE-BCgWoqx2K6G0xnI-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-1185" y="-690" width="250" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="mWGE-BCgWoqx2K6G0xnI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="mWGE-BCgWoqx2K6G0xnI-4" target="mWGE-BCgWoqx2K6G0xnI-8" parent="1">
+        <mxCell id="mWGE-BCgWoqx2K6G0xnI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="mWGE-BCgWoqx2K6G0xnI-4" target="mWGE-BCgWoqx2K6G0xnI-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-465" y="-430" as="sourcePoint" />
-            <mxPoint x="-465" y="-370" as="targetPoint" />
+            <mxPoint x="-725" y="-680" as="sourcePoint" />
+            <mxPoint x="-725" y="-620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mWGE-BCgWoqx2K6G0xnI-10" value="&lt;b&gt;Overall Preference [Juniper]&lt;/b&gt;&lt;br&gt;Juniper support is known for being high-tier and reliable. We will also not need most of the features that Arista offers compared to Juniper because we are trying to keep the network as simple and efficient as possible. Arista&#39;s feature set seems more focused on cloud networks rather than ISP edge networks." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-925" y="-385" width="250" height="30" as="geometry" />
+        <mxCell id="mWGE-BCgWoqx2K6G0xnI-10" value="&lt;b&gt;Overall Preference [Juniper]&lt;/b&gt;&lt;br&gt;Juniper support is known for being high-tier and reliable. We will also not need most of the features that Arista offers compared to Juniper because we are trying to keep the network as simple and efficient as possible. Arista&#39;s feature set seems more focused on cloud networks rather than ISP edge networks." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1185" y="-635" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mWGE-BCgWoqx2K6G0xnI-11" value="&lt;b&gt;Cisco:&lt;/b&gt;&lt;br&gt;Juniper but worse :P" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-925" y="-540" width="250" height="30" as="geometry" />
+        <mxCell id="mWGE-BCgWoqx2K6G0xnI-11" value="&lt;b&gt;Cisco:&lt;/b&gt;&lt;br&gt;Juniper but worse :P" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1185" y="-790" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mWGE-BCgWoqx2K6G0xnI-13" value="Option 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-830" y="-820" width="60" height="30" as="geometry" />
+        <mxCell id="mWGE-BCgWoqx2K6G0xnI-13" value="Option 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-1090" y="-1070" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mWGE-BCgWoqx2K6G0xnI-14" value="Option 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-555" y="-820" width="60" height="30" as="geometry" />
+        <mxCell id="mWGE-BCgWoqx2K6G0xnI-14" value="Option 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-815" y="-1070" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xk56oIc3Z307pz8jZ29w-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="-470" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xk56oIc3Z307pz8jZ29w-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" target="xk56oIc3Z307pz8jZ29w-1" parent="1" source="cPcmEA7VBjGebmvJgzap-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-785" y="-480" as="sourcePoint" />
+            <mxPoint x="-450" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk56oIc3Z307pz8jZ29w-3" value="&lt;b&gt;Overall Preference:&lt;/b&gt;&lt;br&gt;Leaning towards preference for keeping ownership of BGP, however it depends mostly on cost. I feel that if the cost is reasonable enough then the gain we get in other areas could be worthwile. If it&#39;s much more expensive however then I think we would get more value from things like employing a software engineer or better edge equipment." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="-415" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
