@@ -957,6 +957,9 @@
         <mxCell id="xk56oIc3Z307pz8jZ29w-271" value="RocketNet Cape Town" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;textShadow=1;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="665" y="2720" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="xk56oIc3Z307pz8jZ29w-359" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="xk56oIc3Z307pz8jZ29w-272" target="xk56oIc3Z307pz8jZ29w-358">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-272" value="Vuma" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-940" y="3373.75" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1021,7 +1024,7 @@
           <mxGeometry x="275" y="3600" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-293" value="Green = Physical Cables&lt;br&gt;Red = BGP&lt;br&gt;Orange = OSPF&lt;br&gt;Purple = management" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-685" y="2770" width="220" height="75" as="geometry" />
+          <mxGeometry x="-685" y="2710" width="225" height="75" as="geometry" />
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-294" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=arrow;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" source="xk56oIc3Z307pz8jZ29w-219" target="xk56oIc3Z307pz8jZ29w-255" parent="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1150,9 +1153,6 @@
             <mxPoint x="-184" y="3090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xk56oIc3Z307pz8jZ29w-336" value="&lt;b&gt;Noteable Changes:&lt;/b&gt;&lt;div&gt;Peering with Route Reflectors (and BGP as a whole) is removed from all CAR&#39;s to empty the routing table.&lt;/div&gt;&lt;div&gt;CAR&#39;s are interconnected to allow for failover between them if required.&lt;br&gt;Removal of the management switch - Firewall learns management routes directly from the IBR&#39;s via OSPF.&lt;/div&gt;&lt;div&gt;Move management to VRFs so that firewalls can be removed and fast-track can be enabled.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-675" y="2930" width="245" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-338" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=classicThin;startFill=1;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#D79B00;endFill=1;startArrow=classicThin;" edge="1" parent="1" source="xk56oIc3Z307pz8jZ29w-232" target="xk56oIc3Z307pz8jZ29w-263">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-154" y="3290" as="sourcePoint" />
@@ -1213,14 +1213,23 @@
             <mxPoint x="-785" y="1785" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xk56oIc3Z307pz8jZ29w-354" value="&lt;b&gt;NOTE:&lt;/b&gt;&lt;br&gt;Vuma AE peering/vlans would need to move to the edge, although this could be more efficient and reduce a hop if we add a cross-through cable between the pas and dcs switches for the vlans." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-985" y="3530" width="220" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-356" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xk56oIc3Z307pz8jZ29w-255" target="xk56oIc3Z307pz8jZ29w-250">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-385" y="3258" as="sourcePoint" />
             <mxPoint x="-274" y="3290" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xk56oIc3Z307pz8jZ29w-357" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-685" y="2805" width="225" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="xk56oIc3Z307pz8jZ29w-336" value="&lt;b&gt;Noteable Changes:&lt;/b&gt;&lt;div&gt;Peering with Route Reflectors (and BGP as a whole) is removed from all CAR&#39;s to empty the routing table.&lt;/div&gt;&lt;div&gt;CAR&#39;s are interconnected to allow for failover between them if required.&lt;br&gt;Removal of the management switch - Firewall learns management routes directly from the IBR&#39;s via OSPF.&lt;/div&gt;&lt;div&gt;Move management to VRFs so that firewalls can be removed and fast-track can be enabled.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-675" y="2897.5" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xk56oIc3Z307pz8jZ29w-358" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="3500" width="225" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="xk56oIc3Z307pz8jZ29w-354" value="&lt;b&gt;SUGGESTION:&lt;/b&gt;&lt;br&gt;We could move Vuma AE peerings to the edge, which could be more efficient and reduce a hop if we add a cable between the pas and dcs switches for the vlans. It would also mean that we can remove BGP entirely from the car&#39;s and keep it only on the edge to keep everything on 1 standard.&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="3580" width="202.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
