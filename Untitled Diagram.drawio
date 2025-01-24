@@ -8,7 +8,7 @@
           <mxGeometry x="-1200" y="-1080" width="550" height="760" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-910" y="-170" width="220" height="880" as="geometry" />
+          <mxGeometry x="-890" y="-150" width="180" height="860" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-59" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="5" y="680" width="335" height="150" as="geometry" />
@@ -198,6 +198,9 @@
         <mxCell id="fx19zx-SHGDhQ8waikCe-39" value="&lt;div&gt;cpt-rh-ter-car-4&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="850" y="360" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="xk56oIc3Z307pz8jZ29w-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fx19zx-SHGDhQ8waikCe-40" target="fx19zx-SHGDhQ8waikCe-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fx19zx-SHGDhQ8waikCe-40" value="&lt;div&gt;jhb-io-ter-fwa-1&lt;br&gt;(Firewall/NAT)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-10" y="-40" width="120" height="60" as="geometry" />
         </mxCell>
@@ -210,8 +213,11 @@
         <mxCell id="fx19zx-SHGDhQ8waikCe-43" value="jhb-io-ter-bar-1&lt;br&gt;(Business Access)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-240" y="480" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="xk56oIc3Z307pz8jZ29w-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fx19zx-SHGDhQ8waikCe-45" target="fx19zx-SHGDhQ8waikCe-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fx19zx-SHGDhQ8waikCe-45" value="&lt;div&gt;cpt-rh-ter-fwa-1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="750" y="20" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="-40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fx19zx-SHGDhQ8waikCe-48" value="&lt;div&gt;cpt-rh-ter-nuc-1&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Route Reflector)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="420" width="120" height="60" as="geometry" />
