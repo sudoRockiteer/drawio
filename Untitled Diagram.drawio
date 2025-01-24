@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.7">
   <diagram name="Page-1" id="0jXYULb7XNN_6yOyQ7-O">
-    <mxGraphModel dx="3328" dy="1924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3444" dy="1983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -390,13 +390,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-625" y="-1030" width="250" height="220" as="geometry" />
+          <mxGeometry x="-625" y="-1030" width="250" height="160" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-11" value="&lt;b&gt;Suggestion:&lt;br&gt;Remove BGP/RR for non-edge devices&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-575" y="-1010" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-12" value="&lt;b&gt;Plan: &lt;/b&gt;Redisign the network with OSPF in mind, allowing car&#39;s to failover to each other along with ECMP and reducing the number of routes for each car. This will also allow for L3-HW in the future." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-575" y="-910" width="150" height="30" as="geometry" />
+          <mxGeometry x="-600" y="-940" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-355" y="-780" width="250" height="110" as="geometry" />
@@ -417,10 +417,10 @@
           <mxGeometry x="-910" y="-670" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-625" y="-760" width="250" height="350" as="geometry" />
+          <mxGeometry x="-625" y="-810" width="250" height="290" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-27" value="&lt;b&gt;Route Reflectors: &lt;/b&gt;If we are using OSPF for local routes we can also remove the need for RRs which removes them (and their ports) as potential points of failure. This also bring simplicity to the network, since even though the MikroTik&#39;s are slightly more complex, we no longer have to worry about the Route Reflector config.&lt;br&gt;&lt;br&gt;&lt;b&gt;Switches&lt;/b&gt;: Currently switches are a single point of failure, so we could also implement cables between car&#39;s/ibr&#39;s and OSPF would allow for convenient automated failover even if it&#39;s only 1Gbps ether with our current equipment." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-575" y="-600" width="150" height="30" as="geometry" />
+          <mxGeometry x="-600" y="-680" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-57" value="WorkOnline" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-85" y="695" width="120" height="60" as="geometry" />
