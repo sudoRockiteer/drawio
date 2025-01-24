@@ -14,7 +14,7 @@
           <mxGeometry x="-890" y="-150" width="180" height="860" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-59" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-120" y="650" width="320" height="150" as="geometry" />
+          <mxGeometry x="-120" y="650" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="cPcmEA7VBjGebmvJgzap-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="cPcmEA7VBjGebmvJgzap-3" target="cPcmEA7VBjGebmvJgzap-13" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -442,19 +442,19 @@
           <mxGeometry x="-910" y="-415" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-8" value="JINX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-9" value="NAPAfrica" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="750" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-10" value="Netflix" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="820" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-11" value="Google" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-12" value="Meta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="750" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-14" value="Peering" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="340" y="650" width="60" height="30" as="geometry" />
