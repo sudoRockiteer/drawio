@@ -1075,8 +1075,8 @@
         <mxCell id="xk56oIc3Z307pz8jZ29w-292" value="Peering XC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="275" y="3600" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xk56oIc3Z307pz8jZ29w-293" value="Green Line = Physical Cables&lt;br&gt;Red Line = BGP&lt;br&gt;purple = management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-685" y="2785" width="220" height="60" as="geometry" />
+        <mxCell id="xk56oIc3Z307pz8jZ29w-293" value="Green = Physical Cables&lt;br&gt;Red = BGP&lt;br&gt;Orange = OSPF&lt;br&gt;Purple = management" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-685" y="2770" width="220" height="75" as="geometry" />
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-294" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=arrow;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" source="xk56oIc3Z307pz8jZ29w-219" target="xk56oIc3Z307pz8jZ29w-255" parent="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1127,8 +1127,11 @@
             <mxPoint x="-7" y="3205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xk56oIc3Z307pz8jZ29w-307" value="Current BGP-based Network" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="xk56oIc3Z307pz8jZ29w-307" value="Current: BGP Based Network" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="-450" y="1160" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xk56oIc3Z307pz8jZ29w-308" value="Proposed: OSPF Based Network" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="2630" width="480" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
