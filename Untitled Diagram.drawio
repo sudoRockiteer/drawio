@@ -957,9 +957,6 @@
         <mxCell id="xk56oIc3Z307pz8jZ29w-271" value="RocketNet Cape Town" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;textShadow=1;strokeWidth=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="665" y="2720" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xk56oIc3Z307pz8jZ29w-359" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;dashed=1;dashPattern=1 1;" parent="1" source="xk56oIc3Z307pz8jZ29w-272" target="xk56oIc3Z307pz8jZ29w-358" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-272" value="Vuma" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-940" y="3373.75" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1224,12 +1221,6 @@
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-336" value="&lt;b&gt;Noteable Changes:&lt;/b&gt;&lt;div&gt;Peering with Route Reflectors is removed from all CAR&#39;s to empty the routing table.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CAR&#39;s are interconnected to allow for failover between them if required.&lt;br&gt;&lt;br&gt;Removal of the management switch and Firewall instead learns management routes directly from the IBR&#39;s via OSPF.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Move management to VRFs so that firewalls can be removed and fast-track can be enabled.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-675" y="2910" width="205" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xk56oIc3Z307pz8jZ29w-358" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-950" y="3500" width="225" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="xk56oIc3Z307pz8jZ29w-354" value="&lt;b&gt;SUGGESTION:&lt;/b&gt;&lt;br&gt;We could move Vuma AE peerings to the edge, which could be more efficient and reduce a hop if we add a cable between the pas and dcs switches for the vlans. It would also mean that we can remove BGP entirely from the car&#39;s and keep it only on the edge to keep everything on 1 standard.&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-940" y="3580" width="202.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KTbR33EiBhI8LV2CVy-N-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xk56oIc3Z307pz8jZ29w-255" target="xk56oIc3Z307pz8jZ29w-263">
           <mxGeometry relative="1" as="geometry">
