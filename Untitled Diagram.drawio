@@ -975,6 +975,9 @@
         <mxCell id="xk56oIc3Z307pz8jZ29w-277" value="DFA ENNI&lt;br&gt;(VID 1203-1206)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-1085" y="3293.75" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xk56oIc3Z307pz8jZ29w-278" target="xk56oIc3Z307pz8jZ29w-229">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-278" value="Openserve" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-940" y="3293.75" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1227,6 +1230,18 @@
             <mxPoint x="-274" y="3060" as="targetPoint" />
             <mxPoint x="-448" y="3200" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KTbR33EiBhI8LV2CVy-N-2" target="KTbR33EiBhI8LV2CVy-N-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-2" value="CPE - PPPOE-CLIENT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1610" y="3073.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KTbR33EiBhI8LV2CVy-N-3" target="xk56oIc3Z307pz8jZ29w-278">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-3" value="LAC&lt;br&gt;L2TP Access Concentrator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1355" y="3073.75" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
