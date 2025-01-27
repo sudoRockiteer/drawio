@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="Page-1" id="0jXYULb7XNN_6yOyQ7-O">
-    <mxGraphModel dx="3735" dy="2130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4413" dy="2473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1035,7 +1035,7 @@
         <mxCell id="xk56oIc3Z307pz8jZ29w-297" value="jhb-io-ter-car-7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8B573;strokeColor=#b46504;" parent="1" vertex="1">
           <mxGeometry x="-283.75" y="3020" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xk56oIc3Z307pz8jZ29w-298" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0.59;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="xk56oIc3Z307pz8jZ29w-234" edge="1" target="xk56oIc3Z307pz8jZ29w-220">
+        <mxCell id="xk56oIc3Z307pz8jZ29w-298" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0.59;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="xk56oIc3Z307pz8jZ29w-234" target="xk56oIc3Z307pz8jZ29w-220" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="15" y="3600" as="targetPoint" />
           </mxGeometry>
@@ -1211,66 +1211,69 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-357" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-985" y="2612.5" width="225" height="245" as="geometry" />
+          <mxGeometry x="-992.5" y="2590" width="225" height="245" as="geometry" />
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-336" value="&lt;b&gt;Noteable Changes:&lt;/b&gt;&lt;div&gt;Peering with Route Reflectors is removed from all CAR&#39;s to empty the routing table.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CAR&#39;s are interconnected to allow for failover between them if required.&lt;br&gt;&lt;br&gt;Removal of the management switch and Firewall instead learns management routes directly from the IBR&#39;s via OSPF.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Move management to VRFs so that firewalls can be removed and fast-track can be enabled.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-975" y="2717.5" width="205" height="30" as="geometry" />
+          <mxGeometry x="-982.5" y="2695" width="205" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KTbR33EiBhI8LV2CVy-N-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xk56oIc3Z307pz8jZ29w-255" target="xk56oIc3Z307pz8jZ29w-263">
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="xk56oIc3Z307pz8jZ29w-255" target="xk56oIc3Z307pz8jZ29w-263" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-274" y="3060" as="targetPoint" />
             <mxPoint x="-448" y="3200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KTbR33EiBhI8LV2CVy-N-9" value="New Ideas:&lt;br&gt;Combine PAS/DCS into a single more advanced switch with redundancy" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-9" value="New Ideas:&lt;br&gt;Combine PAS/DCS into a single more advanced switch with redundancy" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="-1240" y="2607.5" width="225" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="KTbR33EiBhI8LV2CVy-N-10" value="New Ideas:&lt;br&gt;Addition of an L2TP or firewall version of the CAR&#39;s to offload connections that require BGP or other remote inputs" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-10" value="New Ideas:&lt;br&gt;Addition of an L2TP or firewall version of the CAR&#39;s to offload connections that require BGP or other remote inputs" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="-1240" y="2690" width="225" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="KTbR33EiBhI8LV2CVy-N-11" value="New Ideas:&lt;br&gt;LTE powered console switch for out-of-band management." style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-11" value="New Ideas:&lt;br&gt;LTE powered console switch for out-of-band management." style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="-1240" y="2770" width="225" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="KTbR33EiBhI8LV2CVy-N-12" value="New Ideas:&lt;br&gt;LTE powered console switch for out-of-band management." style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-685" y="2797.5" width="225" height="75" as="geometry" />
+        <mxCell id="5rQyHvvZ_-qMTLjykpcp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="KTbR33EiBhI8LV2CVy-N-12" target="KTbR33EiBhI8LV2CVy-N-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KTbR33EiBhI8LV2CVy-N-13" value="jhb-io-ter-fcar-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8B573;strokeColor=#b46504;" vertex="1" parent="1">
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-12" value="New Ideas:&lt;br&gt;LTE powered console switch for out-of-band management." style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1240" y="2850" width="225" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-13" value="jhb-io-ter-fcar-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8B573;strokeColor=#b46504;" parent="1" vertex="1">
           <mxGeometry x="-452.5" y="3480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KTbR33EiBhI8LV2CVy-N-14" value="jhb-io-ter-fcar-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8B573;strokeColor=#b46504;" vertex="1" parent="1">
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-14" value="jhb-io-ter-fcar-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8B573;strokeColor=#b46504;" parent="1" vertex="1">
           <mxGeometry x="-452.5" y="3550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KTbR33EiBhI8LV2CVy-N-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classicThin;startFill=1;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#D79B00;endFill=1;startArrow=classicThin;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KTbR33EiBhI8LV2CVy-N-13" target="xk56oIc3Z307pz8jZ29w-232">
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classicThin;startFill=1;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#D79B00;endFill=1;startArrow=classicThin;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KTbR33EiBhI8LV2CVy-N-13" target="xk56oIc3Z307pz8jZ29w-232" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-154" y="3390" as="sourcePoint" />
             <mxPoint x="120" y="3235" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KTbR33EiBhI8LV2CVy-N-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classicThin;startFill=1;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#D79B00;endFill=1;startArrow=classicThin;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KTbR33EiBhI8LV2CVy-N-14" target="xk56oIc3Z307pz8jZ29w-232">
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classicThin;startFill=1;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#D79B00;endFill=1;startArrow=classicThin;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KTbR33EiBhI8LV2CVy-N-14" target="xk56oIc3Z307pz8jZ29w-232" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-365" y="3470" as="sourcePoint" />
             <mxPoint x="120" y="3235" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KTbR33EiBhI8LV2CVy-N-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="xk56oIc3Z307pz8jZ29w-255" target="KTbR33EiBhI8LV2CVy-N-13">
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="xk56oIc3Z307pz8jZ29w-255" target="KTbR33EiBhI8LV2CVy-N-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-461" y="3260" as="sourcePoint" />
             <mxPoint x="-274" y="3490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KTbR33EiBhI8LV2CVy-N-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="xk56oIc3Z307pz8jZ29w-255" target="KTbR33EiBhI8LV2CVy-N-14">
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="xk56oIc3Z307pz8jZ29w-255" target="KTbR33EiBhI8LV2CVy-N-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-461" y="3260" as="sourcePoint" />
             <mxPoint x="-274" y="3490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KTbR33EiBhI8LV2CVy-N-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="KTbR33EiBhI8LV2CVy-N-13" target="xk56oIc3Z307pz8jZ29w-250">
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="KTbR33EiBhI8LV2CVy-N-13" target="xk56oIc3Z307pz8jZ29w-250" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-477" y="3260" as="sourcePoint" />
             <mxPoint x="-432" y="3440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KTbR33EiBhI8LV2CVy-N-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="KTbR33EiBhI8LV2CVy-N-14" target="xk56oIc3Z307pz8jZ29w-250">
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="KTbR33EiBhI8LV2CVy-N-14" target="xk56oIc3Z307pz8jZ29w-250" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-370" y="3440" as="sourcePoint" />
             <mxPoint x="-50" y="3265" as="targetPoint" />
@@ -1282,8 +1285,8 @@
         <mxCell id="xk56oIc3Z307pz8jZ29w-267" value="jhb-io-ter-bar-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8B573;strokeColor=#b46504;" parent="1" vertex="1">
           <mxGeometry x="-283.75" y="3450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KTbR33EiBhI8LV2CVy-N-21" value="jhb-io-ter-mcs-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="-632.5" y="2872.5" width="120" height="60" as="geometry" />
+        <mxCell id="KTbR33EiBhI8LV2CVy-N-21" value="jhb-io-ter-mcs-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+          <mxGeometry x="-660" y="2940" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
