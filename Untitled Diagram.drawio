@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.9">
   <diagram name="Page-1" id="0jXYULb7XNN_6yOyQ7-O">
-    <mxGraphModel dx="4294" dy="1983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3444" dy="1983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1287,12 +1287,6 @@
         </mxCell>
         <mxCell id="KTbR33EiBhI8LV2CVy-N-21" value="jhb-io-ter-mcs-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
           <mxGeometry x="-660" y="2940" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="yFrdARF31HGHRnKmfdvS-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Re-evaluating Netbox&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1645" y="2567.5" width="270" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="yFrdARF31HGHRnKmfdvS-2" value="Tracking customer&#39;s information (physical addresses, contact info etc)&lt;br&gt;&lt;div&gt;&lt;br&gt;Inventory for routers+their ports and IP addresses.&lt;br&gt;&lt;br&gt;VLANs assigned for each FTTB/core device&lt;br&gt;&lt;br&gt;IPAM for Core and per-client&lt;br&gt;&lt;br&gt;Tracking VMs&lt;br&gt;&lt;br&gt;Tracking circuits for FTTB/core&lt;br&gt;&lt;br&gt;Visual + informational display of racks&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1710" y="2607.5" width="400" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
