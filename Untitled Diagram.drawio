@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.9">
   <diagram name="Page-1" id="0jXYULb7XNN_6yOyQ7-O">
-    <mxGraphModel dx="3920" dy="2224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4294" dy="1983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1020,7 +1020,7 @@
         <mxCell id="xk56oIc3Z307pz8jZ29w-294" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=arrow;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="xk56oIc3Z307pz8jZ29w-219" target="xk56oIc3Z307pz8jZ29w-255" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xk56oIc3Z307pz8jZ29w-303" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="xk56oIc3Z307pz8jZ29w-300" edge="1" source="xk56oIc3Z307pz8jZ29w-255">
+        <mxCell id="xk56oIc3Z307pz8jZ29w-303" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xk56oIc3Z307pz8jZ29w-255" target="xk56oIc3Z307pz8jZ29w-300" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-455" y="3190" as="sourcePoint" />
             <mxPoint x="-274" y="3100" as="targetPoint" />
@@ -1211,10 +1211,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-357" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-992.5" y="2590" width="225" height="245" as="geometry" />
+          <mxGeometry x="-992.5" y="2605" width="225" height="245" as="geometry" />
         </mxCell>
         <mxCell id="xk56oIc3Z307pz8jZ29w-336" value="&lt;b&gt;Noteable Changes:&lt;/b&gt;&lt;div&gt;Peering with Route Reflectors is removed from all CAR&#39;s to empty the routing table.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CAR&#39;s are interconnected to allow for failover between them if required.&lt;br&gt;&lt;br&gt;Removal of the management switch and Firewall instead learns management routes directly from the IBR&#39;s via OSPF.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Move management to VRFs so that firewalls can be removed and fast-track can be enabled.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-982.5" y="2695" width="205" height="30" as="geometry" />
+          <mxGeometry x="-982.5" y="2710" width="205" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KTbR33EiBhI8LV2CVy-N-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=classicThin;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="xk56oIc3Z307pz8jZ29w-255" target="xk56oIc3Z307pz8jZ29w-263" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1231,7 +1231,7 @@
         <mxCell id="KTbR33EiBhI8LV2CVy-N-11" value="New Ideas:&lt;br&gt;LTE powered console switch for out-of-band management." style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="-1240" y="2770" width="225" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="5rQyHvvZ_-qMTLjykpcp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="KTbR33EiBhI8LV2CVy-N-12" target="KTbR33EiBhI8LV2CVy-N-21">
+        <mxCell id="5rQyHvvZ_-qMTLjykpcp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="KTbR33EiBhI8LV2CVy-N-12" target="KTbR33EiBhI8LV2CVy-N-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KTbR33EiBhI8LV2CVy-N-12" value="New Ideas:&lt;br&gt;LTE powered console switch for out-of-band management." style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -1287,6 +1287,12 @@
         </mxCell>
         <mxCell id="KTbR33EiBhI8LV2CVy-N-21" value="jhb-io-ter-mcs-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
           <mxGeometry x="-660" y="2940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrdARF31HGHRnKmfdvS-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Re-evaluating Netbox&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1645" y="2567.5" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yFrdARF31HGHRnKmfdvS-2" value="Tracking customer&#39;s information (physical addresses, contact info etc)&lt;br&gt;&lt;div&gt;&lt;br&gt;Inventory for routers+their ports and IP addresses.&lt;br&gt;&lt;br&gt;VLANs assigned for each FTTB/core device&lt;br&gt;&lt;br&gt;IPAM for Core and per-client&lt;br&gt;&lt;br&gt;Tracking VMs&lt;br&gt;&lt;br&gt;Tracking circuits for FTTB/core&lt;br&gt;&lt;br&gt;Visual + informational display of racks&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1710" y="2607.5" width="400" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
